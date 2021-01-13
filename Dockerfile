@@ -6,4 +6,4 @@ COPY build/libs/configuration-service*.jar /opt/configuration-service_home/deplo
 
 CMD ["java","-jar","/opt/configuration-service_home/deployments/configuration-service*.jar"]
 
-EXPOSE 1111
+EXPOSE 8080
